@@ -1,18 +1,18 @@
 # Environment
 
-you can refer to the environment.yaml to install the environment.
+you can refer to the `environment.yaml` to install the environment.
 
 PHOENIX-2014 dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)
 
 PHOENIX-2014-T dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
 
-# Run Task1
+# Run Task1: Graph Quality Assessment
 
 go to the dictionary: `cd modules`.
 
 run the code: `python Image2Graph.py`.
 
-# Run Task2
+# Run Task2: Frame-wise Downstream Task
 
 you can change the configs in `configs/` and change the dataset dictionary.
 
