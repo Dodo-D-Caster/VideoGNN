@@ -6,7 +6,13 @@ PHOENIX-2014 dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWT
 
 PHOENIX-2014-T dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
 
-# Run
+# Run Task1
+
+go to the dictionary: `cd modules`.
+
+run the code: `python Image2Graph.py`.
+
+# Run Task2
 
 you can change the configs in `configs/` and change the dataset dictionary.
 
