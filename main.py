@@ -233,12 +233,7 @@ class Processor():
         print("Loading Dataprocessing")
         self.feeder = import_class(self.arg.feeder)
         shutil.copy2(inspect.getfile(self.feeder), self.arg.work_dir)
-        if self.arg.dataset == 'CSL':
-            dataset_list = zip(["train", "dev"], [True, False])
-        elif 'phoenix' in self.arg.dataset:
-            dataset_list = zip(["train", "train_eval", "dev", "test"], [True, False, False, False]) 
-        elif self.arg.dataset == 'CSL-Daily':
-            dataset_list = zip(["train", "train_eval", "dev", "test"], [True, False, False, False])
+        dataset_list = zip(["train", "train_eval", "dev", "test"], [True, False, False, False]) 
         for idx, (mode, train_flag) in enumerate(dataset_list):
             arg = self.arg.feeder_args
             arg["prefix"] = self.arg.dataset_info['dataset_root']

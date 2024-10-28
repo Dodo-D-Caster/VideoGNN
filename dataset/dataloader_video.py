@@ -38,7 +38,6 @@ class BaseFeeder(data.Dataset):
         self.frame_interval = frame_interval # not implemented for read_features()
         self.image_scale = image_scale # not implemented for read_features()
         self.feat_prefix = f"{prefix}/features/fullFrame-256x256px/{mode}"
-        #/data1/gsw/CSL-Daily/sentence/frames_512x512
         self.transform_mode = "train" if transform_mode else "test"
         self.inputs_list = np.load(f"./preprocess/{dataset}/{mode}_info.npy", allow_pickle=True).item()
         print(mode, len(self))
@@ -63,11 +62,7 @@ class BaseFeeder(data.Dataset):
     def read_video(self, index):
         # load file info
         fi = self.inputs_list[index]
-        if 'phoenix' in self.dataset:
-            img_folder = os.path.join(self.prefix, "features/fullFrame-210x260px/" + fi['folder'])
-
-        elif self.dataset == 'CSL-Daily':
-            img_folder = os.path.join(self.prefix, "sentence/frames_512x512/" + fi['folder'])
+        img_folder = os.path.join(self.prefix, "features/fullFrame-210x260px/" + fi['folder'])
         img_list = sorted(glob.glob(img_folder))
         
         # print(img_folder, img_list)

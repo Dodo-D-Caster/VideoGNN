@@ -1,6 +1,6 @@
 feeder: dataset.dataloader_video.BaseFeeder
 phase: train
-dataset: phoenix2014 # phoenix2014, phoenix14-T, CSL-Daily
+dataset: phoenix2014 # phoenix2014, phoenix14-T
 
 work_dir: ./work_dirt/
 batch_size: 2
