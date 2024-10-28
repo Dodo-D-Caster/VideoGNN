@@ -2,9 +2,9 @@
 
 you can refer to the `environment.yaml` to install the environment.
 
-PHOENIX-2014 dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)
+PHOENIX-2014 dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/), [VideoGNN model weight](https://drive.google.com/file/d/1X3LtCQ0AQ_JammigCOdQQxgQjw1OWIT-/view?usp=sharing)
 
-PHOENIX-2014-T dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
+PHOENIX-2014-T dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/), [VideoGNN model weight](https://drive.google.com/file/d/1i7SczErq6Uh2YIPT1OEt9maA-aOpgQlS/view?usp=sharing)
 
 # Run Experiment1: Graph Quality Assessment
 
@@ -18,6 +18,6 @@ you can change the configs in `configs/` and change the dataset dictionary.
 
 also you can change the visiable GPU in `main.py`.
 
-The code for testing is `python main.py --phase test --load-weights xxx`.
+The code for testing is `python main.py --phase test --load-weights [Path_To_The_Weights]`.
 
 The code for training is `python main.py`.
