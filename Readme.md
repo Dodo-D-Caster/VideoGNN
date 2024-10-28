@@ -2,9 +2,9 @@
 
 you can refer to the `environment.yaml` to install the environment.
 
-PHOENIX-2014 dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/), [VideoGNN model weight](https://drive.google.com/file/d/1X3LtCQ0AQ_JammigCOdQQxgQjw1OWIT-/view?usp=sharing)
+PHOENIX-2014 [dataset download link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/), [VideoGNN model weight](https://drive.google.com/file/d/1X3LtCQ0AQ_JammigCOdQQxgQjw1OWIT-/view?usp=sharing)
 
-PHOENIX-2014-T dataset [link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/), [VideoGNN model weight](https://drive.google.com/file/d/1i7SczErq6Uh2YIPT1OEt9maA-aOpgQlS/view?usp=sharing)
+PHOENIX-2014-T dataset [dataset download link](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/), [VideoGNN model weight](https://drive.google.com/file/d/1i7SczErq6Uh2YIPT1OEt9maA-aOpgQlS/view?usp=sharing)
 
 # Run Experiment1: Graph Quality Assessment
 
